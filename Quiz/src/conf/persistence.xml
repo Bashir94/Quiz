@@ -7,9 +7,9 @@
     <class>Model.User.Etudiant</class>
     <class>Model.User.Prof</class>
     <class>Model.User.User</class>
-    <class>SousCategorie.SousCategorie</class>
     <class>Model.Choix.Choix</class>
     <class>Model.Question.Question</class>
+    <class>Model.SousCategorie.SousCategorie</class>
     <exclude-unlisted-classes>true</exclude-unlisted-classes>
     <properties>
       <property name="javax.persistence.schema-generation.database.action" value="create"/>

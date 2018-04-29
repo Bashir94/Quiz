@@ -7,7 +7,7 @@ package Controller.Exam;
 
 
 import Model.Exam.Exam;
-import SousCategorie.SousCategorie;
+import Model.SousCategorie.SousCategorie;
 import java.io.IOException;
 import java.util.List;
 import java.util.logging.Level;

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package SousCategorie;
+package Model.SousCategorie;
 
 import Model.Categorie.Categorie;
 import java.io.Serializable;

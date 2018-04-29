@@ -3,7 +3,7 @@
 <%@page import="javax.persistence.EntityManager"%>
 <%@page import="javax.persistence.Persistence"%>
 <%@page import="javax.persistence.EntityManagerFactory"%>
-<%@page import="SousCategorie.SousCategorie"%>
+<%@page import="Model.SousCategorie.SousCategorie"%>
 <%@page import="java.util.List"%>
 <!DOCTYPE html>
 <html lang="en">

@@ -1,4 +1,4 @@
-<%@page import="SousCategorie.SousCategorie"%>
+<%@page import="Model.SousCategorie.SousCategorie"%>
 <%@page import="java.util.List"%>
 <%@page import="javax.persistence.Query"%>
 <%@page import="javax.persistence.Persistence"%>

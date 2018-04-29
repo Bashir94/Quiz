@@ -6,7 +6,7 @@
 package Model.categorie;
 
 import java.util.List;
-import SousCategorie.SousCategorie;
+import Model.SousCategorie.SousCategorie;
 
 /**
  *

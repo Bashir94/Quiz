@@ -8,7 +8,7 @@ package test;
 import Model.Categorie.Categorie;
 import Model.categorie.DAOCategorie;
 import Model.categorie.ImpDAOCategorie;
-import SousCategorie.SousCategorie;
+import Model.SousCategorie.SousCategorie;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;

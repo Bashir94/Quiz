@@ -6,7 +6,7 @@
 package Model.Exam;
 
 import Model.Question.Question;
-import SousCategorie.SousCategorie;
+import Model.SousCategorie.SousCategorie;
 import java.io.Serializable;
 import java.util.List;
 import static javax.persistence.CascadeType.ALL;

@@ -12,7 +12,7 @@ import Model.Exam.ImpDAOExam;
 import Model.Question.Question;
 import Model.User.DAOProf;
 import Model.User.ImpDAOProf;
-import SousCategorie.SousCategorie;
+import Model.SousCategorie.SousCategorie;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;

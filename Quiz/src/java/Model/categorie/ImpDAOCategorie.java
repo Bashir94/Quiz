@@ -5,7 +5,7 @@
  */
 package Model.categorie;
 
-import SousCategorie.SousCategorie;
+import Model.SousCategorie.SousCategorie;
 import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
