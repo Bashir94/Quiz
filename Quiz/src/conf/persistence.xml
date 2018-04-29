@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="QuizPU" transaction-type="JTA">
+    <jta-data-source>java:app/quiz</jta-data-source>
+    <class>Model.Categorie.Categorie</class>
+    <class>Model.Exam.Exam</class>
+    <class>Model.User.Etudiant</class>
+    <class>Model.User.Prof</class>
+    <class>Model.User.User</class>
+    <class>SousCategorie.SousCategorie</class>
+    <class>Model.Choix.Choix</class>
+    <class>Model.Question.Question</class>
+    <exclude-unlisted-classes>true</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.schema-generation.database.action" value="create"/>
+    </properties>
+  </persistence-unit>
+</persistence>

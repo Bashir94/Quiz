@@ -1,0 +1,27 @@
+<div id="worked">00:1</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function (e) {
+    var $worked = $("#worked");
+
+    function update() {
+        var myTime = $worked.html();
+        var ss = myTime.split(":");
+        var dt = new Date();
+        dt.setHours(0);
+        dt.setMinutes(ss[0]);
+        dt.setSeconds(ss[1]);
+
+        var dt2 = new Date(dt.valueOf() - 1000);
+        var temp = dt2.toTimeString().split(" ");
+        var ts = temp[0].split(":");
+
+        $worked.html(ts[1]+":"+ts[2]);
+		if(ts[1]==0 && ts[2]==0)
+			window.location = "CheckResult?ide=${ide}&rep=${rep}";
+        setTimeout(update, 1000);
+    }
+
+    setTimeout(update, 1000);
+});
+</script>
